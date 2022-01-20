@@ -247,7 +247,7 @@
 .left-items-a {
   color: #000000;
 }
-button{
+button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,8 +258,32 @@ button{
   background-color: #696969;
   color: #fff;
   font-weight: 700;
-
-}button:hover{
-   background-color: #fff;
+}
+button:hover {
+  background-color: #fff;
   color: #696969;
+}
+@media only screen and (max-width: 750px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .right {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .left {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
 }
