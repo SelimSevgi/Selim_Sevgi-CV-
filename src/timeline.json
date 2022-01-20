@@ -1,50 +1,137 @@
-[
-  {
-    "text": "Pandemi sonrası stajyer olarak Malatya Teknokentte devam ettim. Python dilini kullanılarak “Yüz Tanıma Sistemi” projesini yaptım. Projede; kullanıcı giriş ve çıkışlar için SQL Database ,görsel tasarım arayüzü için Tkinter kullandım.",
-    "date": "2020",
-    "category": {
-      "tag": "Stajyer Mühendis",
-      "color": "#018f69"
+{
+  "timeline": [
+    {
+      "text": "Site yapımında javascript framework'u olan #NextJS'i kullandım.",
+      "date": "2021",
+      "category": {
+        "tag": "Ön Uç Geliştirme",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://yemeksepeti-clone.vercel.app/",
+        "text": "Yemeksepeti-Klon"
+      }
     },
-    "link": {
-      "url": "https://www.dgharge.com/",
-      "text": "DGH ARGE"
-    }
-  },
-  {
-    "text": "Bilgi ve teknoloji departmanında bulundum. AR üzerine çalıştım. Unity uygulamasıyla photoshoptaki tasarımlarımızı vuforia aracılığıyla barkotlar üzerinde gözlemledik.",
-    "date": "2020",
-    "category": {
-      "tag": "Stajyer Mühendis",
-      "color": "#018f69"
+    {
+      "text": "Pandemi sonrası stajyer olarak Malatya Teknokentte devam ettim. Python dilini kullanılarak “Yüz Tanıma Sistemi” projesini yaptım. Projede; kullanıcı giriş ve çıkışlar için SQL Database ,görsel tasarım arayüzü için Tkinter kullandım.",
+      "date": "2020",
+      "category": {
+        "tag": "Stajyer Mühendis",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.dgharge.com/",
+        "text": "DGH ARGE"
+      }
     },
-    "link": {
-      "url": "https://calikdenim.com/",
-      "text": "ÇALIK DENİM"
-    }
-  },
-  {
-    "text": "Pano tasarımı, e-plan okumayı ve inverter ile motor üzerinde çeşitli giriş elemanlarıyla çalışmalarda bulundum. PLC üzerinde çalışmalarda bulundum.",
-    "date": "2019",
-    "category": {
-      "tag": "Stajyer Mühendis",
-      "color": "#018f69"
+    {
+      "text": "Bilgi ve teknoloji departmanında bulundum. AR üzerine çalıştım. Unity uygulamasıyla photoshoptaki tasarımlarımızı vuforia aracılığıyla barkotlar üzerinde gözlemledik.",
+      "date": "2020",
+      "category": {
+        "tag": "Stajyer Mühendis",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://calikdenim.com/",
+        "text": "ÇALIK DENİM"
+      }
     },
-    "link": {
-      "url": "https://www.temkon.com.tr/index.asp",
-      "text": "TEMKON"
-    }
-  },
-  {
-    "text": "Elektrik pano şalt malzemelerini tanıdım. Pano imalatında destek kısmında görev aldım.",
-    "date": "2018",
-    "category": {
-      "tag": "Stajyer Mühendis",
-      "color": "#018f69"
+    {
+      "text": "Pano tasarımı, e-plan okumayı ve inverter ile motor üzerinde çeşitli giriş elemanlarıyla çalışmalarda bulundum. PLC üzerinde çalışmalarda bulundum.",
+      "date": "2019",
+      "category": {
+        "tag": "Stajyer Mühendis",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.temkon.com.tr/index.asp",
+        "text": "TEMKON"
+      }
     },
-    "link": {
-      "url": "https://www.doganates.com/",
-      "text": "DOĞANATEŞ"
+    {
+      "text": "Elektrik pano şalt malzemelerini tanıdım. Pano imalatında destek kısmında görev aldım.",
+      "date": "2018",
+      "category": {
+        "tag": "Stajyer Mühendis",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.doganates.com/",
+        "text": "DOĞANATEŞ"
+      }
     }
-  }
-]
+  ],
+  "timelineEng": [
+    {
+      "text": "I used #NextJS, a javascript framework, in site construction.",
+      "date": "2021",
+      "category": {
+        "tag": "Front-End Development",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://yemeksepeti-clone.vercel.app/",
+        "text": "Yemeksepeti-Clone"
+      }
+    },
+    {
+      "text": "After the pandemic, I continued at Malatya Technopolis as an intern. I made the “Face Recognition System” project using the Python language. In the project; I used SQL Database for user login and logout and Tkinter for visual design interface.",
+      "date": "2020",
+      "category": {
+        "tag": "Intern Engineer",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.dgharge.com/",
+        "text": "DGH ARGE"
+      }
+    },
+    {
+      "text": "I was in the information and technology department. I worked on AR. With the Unity application, we observed our designs in photoshop on barcodes through vuforia.",
+      "date": "2020",
+      "category": {
+        "tag": "Intern Engineer",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://calikdenim.com/",
+        "text": "CALIK DENIM"
+      }
+    },
+    {
+      "text": "I worked on panel design, e-plan reading and various input elements on the inverter and motor. I worked on PLC.",
+      "date": "2019",
+      "category": {
+        "tag": "Intern Engineer",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.temkon.com.tr/index.asp",
+        "text": "TEMKON"
+      }
+    },
+    {
+      "text": "I got to know the electrical panel switchgear materials. I took part in the support part of the panel production.",
+      "date": "2018",
+      "category": {
+        "tag": "Intern Engineer",
+        "color": "#018f69"
+      },
+      "link": {
+        "url": "https://www.doganates.com/",
+        "text": "DOGANATES"
+      }
+    }
+  ],
+
+  "career": [
+    {
+      "textEng": "My interest in electrical-electronic projects and software was an important factor in getting to know PLC, which started in my vocational high school period, and choosing and loving my profession of programming with PLC.I have been working on panel design, manufacturing and PLC on e-plan for about 1 year.I have been in the field in many companies. For 6 months, I took training in the software part and worked on AR and I made a face recognition system project using the python language. I have been working on web design front-end for 2 months. I am looking for an environment where I can effectively apply my knowledge and the knowledge I will gain in the future, within the engineering discipline, in the rise of my organization."
+    } ,
+    
+    
+      {
+      "textTur": "Elektrik-elektronik projelerine ve yazılıma olan merakım, meslek lisesi dönemimde başlayan PLC’i tanıma ve PLC ile programlama mesleğimi tercih etmemde ve sevmemde önemli bir etken oldu. Yaklaşık 1 senedir e-plan üzerinde pano tasarımı, imalatı ve PLC üzerinde çalıştım. Birçok firmada sahada bulundum. 6 ay boyunca yazılım kısmında eğitimler alarak AR üzerinde çalışmalarda bulundum ve python dilini kullanarak yüz tanıma sistemi projesini yaptım. Web tasarımı front-end üzerine 2 aydır çalışmalar yapmaktayım. Bilgilerimi ve gelecekte edineceğim bilgilerimi, bulunduğum kuruluşun yükselişinde mühendislik disiplini dâhilinde, etkin bir şekilde uygulayabileceğim bir ortam arıyorum."
+    }
+  ]
+}
