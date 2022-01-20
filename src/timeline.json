@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Pandemi sonrası stajyer olarak Malatya Teknokentte devam ettim. Python dilini kullanılarak “Yüz Tanıma Sistemi” projesini yaptım. Projede; kullanıcı giriş ve çıkışlar için SQL Database ,görsel tasarım arayüzü için Tkinter kullandım.",
+    "date": "2020",
+    "category": {
+      "tag": "Stajyer Mühendis",
+      "color": "#018f69"
+    },
+    "link": {
+      "url": "https://www.dgharge.com/",
+      "text": "DGH ARGE"
+    }
+  },
+  {
+    "text": "Bilgi ve teknoloji departmanında bulundum. AR üzerine çalıştım. Unity uygulamasıyla photoshoptaki tasarımlarımızı vuforia aracılığıyla barkotlar üzerinde gözlemledik.",
+    "date": "2020",
+    "category": {
+      "tag": "Stajyer Mühendis",
+      "color": "#018f69"
+    },
+    "link": {
+      "url": "https://calikdenim.com/",
+      "text": "ÇALIK DENİM"
+    }
+  },
+  {
+    "text": "Pano tasarımı, e-plan okumayı ve inverter ile motor üzerinde çeşitli giriş elemanlarıyla çalışmalarda bulundum. PLC üzerinde çalışmalarda bulundum.",
+    "date": "2019",
+    "category": {
+      "tag": "Stajyer Mühendis",
+      "color": "#018f69"
+    },
+    "link": {
+      "url": "https://www.temkon.com.tr/index.asp",
+      "text": "TEMKON"
+    }
+  },
+  {
+    "text": "Elektrik pano şalt malzemelerini tanıdım. Pano imalatında destek kısmında görev aldım.",
+    "date": "2018",
+    "category": {
+      "tag": "Stajyer Mühendis",
+      "color": "#018f69"
+    },
+    "link": {
+      "url": "https://www.doganates.com/",
+      "text": "DOĞANATEŞ"
+    }
+  }
+]
