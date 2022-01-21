@@ -51,11 +51,15 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
           <div className="name">
             <img src="https://i.hizliresim.com/35iuje1.jpg" />
             <ReactToPrint
-              trigger={() => <button>{lang ? "Yazdır!" : "Print!"}</button>}
+              trigger={() => (
+                <button>
+                  {lang ? "'.pdf ' Olarak Kaydet!" : "Save As '.pdf '"}
+                </button>
+              )}
               content={() => componentRef.current}
             />
             <button onClick={() => setLang(!lang)}>
-              Language : {lang ? "Türkçe" : "English"}
+              {lang ? "İngilizceye Çevir!" : "Translate to Turkish!"}
             </button>
             <span style={{ marginTop: "10px" }}>
               {lang ? "SELİM SEVGİ" : "SELIM SEVGI"}
@@ -63,12 +67,12 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
 
             {lang ? (
               <span style={{ margin: "10px 0" }}>
-                ELEKTRİK ve ELEKTRONİK <br />
+                ELEKTRİK - ELEKTRONİK <br />
                 MÜHENDİSİ
               </span>
             ) : (
               <span style={{ margin: "10px 0" }}>
-                ELECTRIC AND ELECTRONIC <br />
+                ELECTRIC - ELECTRONIC <br />
                 ENGINEER
               </span>
             )}
