@@ -5,8 +5,10 @@ import {
   BsArrowBarRight,
 } from "react-icons/bs";
 import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
-import { HiLocationMarker, HiOutlineSaveAs } from "react-icons/hi";
-import { MdSchool, MdWork } from "react-icons/md";
+import { HiLocationMarker } from "react-icons/hi";
+
+import { BsSave } from "react-icons/bs";
+import { MdSchool } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import timelineData from "./timeline.json";
 
@@ -55,7 +57,7 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
               trigger={() => (
                 <button>
                   {lang ? "'.pdf ' Olarak Kaydet!" : "Save As '.pdf '"}
-                  <HiOutlineSaveAs style={{ marginLeft: 10 }} />
+                  <BsSave style={{ marginLeft: 10 }} />
                 </button>
               )}
               content={() => componentRef.current}
