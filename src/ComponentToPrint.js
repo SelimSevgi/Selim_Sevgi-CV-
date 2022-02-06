@@ -10,6 +10,8 @@ import { HiLocationMarker } from "react-icons/hi";
 import { BsSave } from "react-icons/bs";
 import { MdSchool } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
+import { BiLink } from "react-icons/bi";
+
 import timelineData from "./timeline.json";
 
 import ReactToPrint from "react-to-print";
@@ -52,7 +54,7 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
       <div className="App">
         <div className="right">
           <div className="name">
-            <img src="https://i.hizliresim.com/35iuje1.jpg" />
+            <img src="https://i.hizliresim.com/35iuje1.jpg" alt="profil" />
             <ReactToPrint
               trigger={() => (
                 <button>
@@ -97,9 +99,26 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
               </a>
             </div>
             <div className="iletisim-item">
+              <BiLink className="iletisim-icon" />
+
+              <a
+                style={{ color: "white" }}
+                href="https://selimsevgi.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://selimsevgi.vercel.app/
+              </a>
+            </div>
+            <div className="iletisim-item">
               <AiOutlineMail className="iletisim-icon" />
 
-              <a style={{ color: "white" }} href="mailto:slmsvg44@gmail.com">
+              <a
+                style={{ color: "white" }}
+                href="mailto:slmsvg44@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 slmsvg44@gmail.com
               </a>
             </div>
@@ -109,6 +128,8 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
               <a
                 style={{ color: "white" }}
                 href="https://www.linkedin.com/in/selim-sevgi"
+                target="_blank"
+                rel="noreferrer"
               >
                 https://www.linkedin.com/in/selim-sevgi
               </a>
@@ -118,6 +139,8 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
               <a
                 style={{ color: "white" }}
                 href="https://github.com/SelimSevgi"
+                target="_blank"
+                rel="noreferrer"
               >
                 https://github.com/SelimSevgi
               </a>
